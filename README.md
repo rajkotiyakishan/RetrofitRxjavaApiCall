@@ -62,7 +62,7 @@ public class ApiUtils {
 
    public static final String BASE_URL = "https://www.somesite.com/somepath/";
    
-//Base Url means portion of the full url which never change. only //end part will change
+//Base Url means portion of the full url which never change. only end part will change
 
     public static APIService getAPIService() {
         return RetrofitClient
