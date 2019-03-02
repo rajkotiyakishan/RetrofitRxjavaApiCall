@@ -17,7 +17,9 @@ First Add Dependency in your build.gradle(Module:app)
 if you have collection of Api like Bellow;
  
 Ex. For get Color, API is “https://www.somesite.com/somepath/color";
+
  For get category, API is “https://www.somesite.com/somepath/category";
+ 
  For Post Email and Password, API is “https://www.somesite.com/somepath/login";
 
 Now, Follow only 4 steps like below: 
