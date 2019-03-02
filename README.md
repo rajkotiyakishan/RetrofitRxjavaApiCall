@@ -60,11 +60,12 @@ public class ApiUtils {
     }
 
 }
+
+
 3. Now Create interface named APIService:
 
 import com.sesame.pojo.CategoryFirst;
 import com.sesame.pojo.EventsMain;
-
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 
@@ -76,13 +77,13 @@ public interface APIService {
  @GET("color")
     Observable<ColorResponseClass> getCategory();
  
- 
   @POST("login")
     @FormUrlEncoded
     Observable<LoginResponseClass>
  postLogin(@Field("email") String email,
            @Field("password") String password);
 }
+ 
 4.Last step, Calling Api to get response from yourActivity
 
 package com.sesame.activities;
