@@ -5,18 +5,13 @@ First Add Dependency in your build.gradle(Module:app)
  
  // Retrofit
  implementation ‘com.squareup.retrofit2:retrofit:2.4.0’
- 
  implementation ‘com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4’
- 
  implementation ‘com.google.code.gson:gson:2.8.5’
- 
  implementation ‘com.squareup.retrofit2:converter-gson:2.4.0’
 
 // rx android
  implementation ‘io.reactivex.rxjava2:rxandroid:2.1.0’
- 
  implementation ‘io.reactivex.rxjava2:rxjava:2.2.4’
- 
  implementation ‘com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0’
 
 if you have collection of Api like Bellow;
